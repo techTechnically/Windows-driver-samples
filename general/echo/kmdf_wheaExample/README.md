@@ -1,6 +1,6 @@
 # What is this?
 
-This is a duplicate of the KMDF echo device/driver sample provided by Microsoft in their driver samples github: https://github.com/microsoft/Windows-driver-samples. Specifically: Windows-driver-samples/general/echo/kmdf/. This sample has been tweaked to fire a WHEA error on device initialization. Feel free to check out the changes applied on top of the original by reviewing this commit: ce1559f .
+This is a duplicate of the KMDF echo device/driver sample provided by Microsoft in their driver samples github: https://github.com/microsoft/Windows-driver-samples. Specifically: Windows-driver-samples/general/echo/kmdf/. This sample has been tweaked to fire a WHEA error on device initialization. Feel free to check out the changes applied on top of the original by reviewing this commit: ce1559f8ca30cdb861d18a18aac60caa18dd77ee .
 
 # Prerequisites
 
