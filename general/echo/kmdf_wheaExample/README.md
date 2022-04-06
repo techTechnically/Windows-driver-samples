@@ -44,8 +44,8 @@ Spectre mitigations have been disabled on each project rather than enforcing a s
     > Updating drivers for root\ECHO from C:\Users\User\Desktop\echo\echo.inf.
     > 
     > Drivers installed successfully.
-    * If you encounter issue here then consult the log file located at: C:\Windows\INF\setupapi.dev.log.
+    * If you encounter issues here then consult the log file located at: C:\Windows\INF\setupapi.dev.log.
  8. To confirm everything has been installed properly, open Device Manager and under "Sample Device" you should see a device listed as "This fires WHEA errors PEW PEW".
-    * A WHEA logger event should have been logged to the Event Viewer as well. You can find it under the "Administrative Events" custom view and under the following "Application and Service Logs / Microsoft / Windows / Kernel-WHEA / Errors".
+    * A WHEA logger event should have been logged to the Event Viewer as well. You can find it under "Windows Logs / System" log (search for the "WHEA-Logger" Source column), or the "Administrative Events" custom view and under the following "Application and Service Logs / Microsoft / Windows / Kernel-WHEA / Errors".
     * You can create more events by disabling and then re-enabling the driver in the Device Manager.
  9. When finished, make sure to uninstall the device (and driver) from the Device Manager, disable test signing (`bcdedit /set testsigning off`), and re-enable Secure Boot (if desired).
